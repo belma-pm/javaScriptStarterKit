@@ -1,23 +1,23 @@
-console.log("merhaba kodlama.io")
-let dolarBugun=9.30
+console.log("Merhaba Kodlama.io");
 
-let dolarDun=9.20
- dolarDun="9.20"
+let dolarBugun = 9.30
+let dolarDun = 9.20
+dolarDun = "9.20"
 {
-    let dolarDun=9.10
+    let dolarDun = 9.10
 }
-
 console.log(dolarDun)
-const euroDun=11.2
-
+const euroDun = 11.2
+//euroDun = 11 //Bunu yapamıyoruz
 console.log(euroDun)
 
-let konutKredileri=["Konut kredisi","Emlak konut kredisi","Kamu Konut kredisi","özel konut kredileri"]
-console.log("<ul>")
-{
-for (let index = 0; konutKredileri.length; index++) {
-   console.log("<li>"+konutKredileri[index]+"</li>")
-    
-}
-console.log("<ul>")
+//array
+let konutKredileri = ["Konut kredisi","Emlak Konut Kredisi","Kamu Konut Kredisi","Özel Konut Kredisi"]
 console.log(konutKredileri)
+
+console.log("<ul>")
+for (let i = 0; i < konutKredileri.length; i++) {
+   console.log("<li>" + konutKredileri[i] + "</li>")
+}
+
+console.log("</ul>")
